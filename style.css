@@ -1,0 +1,266 @@
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #795757;
+    font-size: 2.5rem;
+}
+
+.allura-regular {
+    font-family: "Allura", cursive;
+    font-weight: bold;
+    font-style: normal;
+    color: #664343;
+    font-size: 5.625rem;
+}
+  
+.josefin-slab-regular {
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: #3B3030;
+    font-size: 1.5rem;
+}
+
+.top-container {
+    margin: 0px;
+    border: 0px;
+    background-color: #FFF0D1;
+    padding-top: 100px;
+    position: relative;
+    background-image:url(./bg.png);
+    height: fit-content;
+    width: auto;
+    text-align: center;
+    display: block;
+    border: 5px solid #3B3030;
+}
+
+body {
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+div h1 {
+    margin: 50px auto 0px auto;
+    background-color: #e4be96;
+    border: 3px double #664343;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: fit-content;
+    border-radius: 10px;
+    text-wrap: nowrap;
+}
+
+.top-container h2 {
+    margin: 50px auto 0px auto;
+    background-color: #e4be96;
+    width: fit-content;
+    border: 3px double #664343;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 10px;
+    text-wrap: nowrap;
+}
+
+.headphones {
+    height: 22.5rem;
+    margin: 50px auto 0px auto;
+    overflow: clip;
+    width: fit-content;
+}
+
+.middle-container {
+    margin: 100px 0px;
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    display: block;
+    text-align: center;
+}
+
+.profile {
+    height: 11.5rem;
+    border-radius: 50%;
+    border: #3B3030 4px solid;
+}
+
+.me {
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: auto;
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+div > h2 {
+    margin-block-start: 2.5rem;
+    margin-block-end: 1rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.element::after {
+    content: "❤️";
+}
+
+div > hr {
+    margin: 100px auto;
+    width: 5%;
+    text-align: center;
+    border: 6px dotted #3B3030;
+    display: block;
+    border-bottom: none;
+}
+
+.middle-container h3 {
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    color: #3B3030;
+    font-size: 2rem;
+    border-left: 2px solid #3B3030;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-block-start: 1.15rem;
+    margin-block-end: 1.15rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr);
+    grid-template-rows: 1fr;
+    width: 80%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    column-gap: 2rem;
+    padding: 1rem;
+}
+
+@media (max-width: 1020px) {
+    .parent {
+        grid-template-columns: 1fr; 
+        width: 90%; 
+        row-gap: 2rem;
+    }
+    .allura-regular {
+        font-size: 3.75rem;
+    }
+    .bebas-neue-regular {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .allura-regular {
+        font-size: 2.25rem;
+    }
+    .bebas-neue-regular {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 364px) {
+    .headphones {
+        height: 10rem;
+        width: fit-content;
+        overflow: clip;
+    }
+    .parent {
+        grid-template-columns: minmax(70px, 300px); 
+        width: 90%; 
+        row-gap: 2rem;
+    }
+    .josefin-slab-regular {
+        font-size: 1rem;
+    }
+    .parent h3 {
+        font-size: 1rem;
+    }
+    .profile {
+        height: 10rem;
+    }
+    .top-container h2, div h1, .profile, .parent h3 {
+        overflow: hidden;
+    }
+}
+
+.web-design, .coffee-lover {
+    background-color: #FFF0D1;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1rem solid #3B3030;
+}
+
+.web, .coffee {
+    height: fit-content;
+    width: 100%;
+    min-height: 100px;
+    border-radius: 5px;
+}
+
+.middle-container a {
+    text-decoration: none;
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.5rem;
+    background-color: #795757;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 10px 20px;
+    border: 0px;
+    margin: 10px 20px;
+}
+
+.middle-container a:hover {
+    background-color: #795757;
+    border: 2px solid #3B3030;
+}
+
+footer {
+    padding: 50px 0 20px;
+    background-image: url(1.png);
+    text-align: center;
+}
+
+.bottom-container a {
+    color: #FFF0D1;
+    text-decoration: none;
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.5rem;
+    background-color: #795757;
+    border-radius: 3px;
+    padding: 4px 8px;
+}
+
+.links {
+    text-align: center;
+    margin: 0px auto;
+}
+
+.agency, .pricing-table, .mandorian-painting, .tindog {
+    margin: 0px 20px;
+}
+
+footer > p {
+    color: #FFF0D1 !important; 
+    margin: 20px auto 0px;
+    width: fit-content;
+}
